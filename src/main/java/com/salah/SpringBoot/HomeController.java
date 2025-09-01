@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/")
     public String hello() {
-        System.out.println("hello");
+        System.out.println(" hello");
         return "index.jsp";
     }
 }
